@@ -1,0 +1,32 @@
+# If the world does not exists, it will be created automatically:
+auto_create_world: true
+
+local_chat_distance: 125.0
+
+radar_distance: 175.0
+
+total_matchs: 0
+
+# When one match ends or becomes full, a new match will start automatically:
+auto_start_match: true
+
+# When your match is finished, you are redirected to a new available match:
+auto_join_match: true
+
+game:
+  max_per_match: 12
+  min_to_start: 2
+  time_to_start: 10
+  match_time: 600
+  award_balance: 5.0
+  highlight: true
+  split_highlight: true
+  highlight_award: 2.5
+
+users: {}
+
+lobby: {}
+
+maps: {}
+
+signs: {}

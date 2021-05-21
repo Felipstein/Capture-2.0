@@ -1,0 +1,45 @@
+name: Capture
+author: Felipe
+
+main: br.felipe.capture.Main
+version: 0.0-ALPHA
+
+api-version: 1.13
+
+commands:
+  auth:
+    aliases: [a]
+  balance:
+    aliases: [coins, coin, money, dinheiro, dinheiros, carteira, m, c, d]
+  capture:
+    aliases: [cpt]
+  maps:
+    aliases: [maptheme, mapthemes, mapstheme]
+  profile:
+    aliases: [perfil, p]
+  ranking:
+    aliases: [rank, ranks]
+  shop:
+    aliases: [loja, shopping]
+  spawn:
+    aliases: [home, hub, lobby]
+  wins:
+    aliases: [vitorias, win, w]
+  global:
+    aliases: [g]
+  local:
+    aliases: [l]
+  response:
+    aliases: [r]
+  team:
+    aliases: [equipe, e]
+  tell:
+    aliases: [t]
+  knockbackativado:
+    aliases: [knockbackon, kbativado, kbon]
+  knockbackdesativado:
+    aliases: [knockbackoff, kbdesativado, kboff]
+  dia:
+    aliases: [day]
+  noite:
+    aliases: [night]
